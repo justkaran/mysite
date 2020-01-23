@@ -2,6 +2,7 @@ body {
   font-family: "Inconsolata","Lucida Console";
   font-size: 2vh;
   line-height: 1.1em;
+  height: 100%;
 }
 
 a {
@@ -33,6 +34,10 @@ hr {
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 2em;
+}
+
+.footer {
+flex-shrink: 0;
 }
 
 #menusite {
