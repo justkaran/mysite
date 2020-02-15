@@ -17,7 +17,7 @@ import Nav from '../../components/Nav/nav.js';
               <p>Karan Dehghani is a developer and dad. In 1997 he programmed and launched an online store, Geschenk24.com. It was acquired by <a href="https://www.metroag.de/en/">Metro</a> in 2001. </p>
               <p>In 2015 Karan initialized <a href="https://www.CodeDoor.com">CodeDoor.org</a>. It's a network of programmers in +50 countries that helps people to learn how to learn how to code and helps the best ones to find a hard-earned job.</p>
               <p> In 2018 he initiated a project in Germany that allows students conduct experiments with astronauts on the <a href="http://www.schulenimweltraum.de">ISS.</a></p>
-              <p> In 2020 he made the best Pizza you can think of.</p>
+              <p> In 2020 he made the best Pizza you can think of. Since 1988 he plays Basketball. </p>
             </div>
           </body>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../../components/Nav/nav.js';
 
-
+mixpanel.track("Page Load")
     //const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
     function Landingpage() {
 
@@ -14,6 +14,7 @@ import Nav from '../../components/Nav/nav.js';
            </header>
          <body>
                  <Nav />
+
          </body>
              </div>
         );
