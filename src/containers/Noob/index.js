@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../../components/Nav/nav.js';
 
     //const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
-    class Email extends React.Component {
+    class Noob extends React.Component {
       render() {
         return (
         <div className="App">
@@ -38,4 +38,4 @@ import Nav from '../../components/Nav/nav.js';
       }
     }
 
-export default Email;
+export default Noob;
