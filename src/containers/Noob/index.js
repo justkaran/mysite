@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from '../../components/Nav/nav.js';
 
-    //const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
     class Noob extends React.Component {
       render() {
         return (
