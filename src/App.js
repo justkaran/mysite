@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Mixpanel } from './components/Mixpanel';
+
 import { publicRoutes } from "./routes";
 function App() {
+  useEffect(() => {
+      // Update the document title using the browser API
+    Mixpanel.track('User Visit at my site');
+    });
+
   return (
     <div className="App">
       <header className="App-header">
