@@ -4,14 +4,14 @@ import { Mixpanel } from '../../components/Mixpanel';
 
 
     //const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
-    function Landingpage() {
+    class Landingpage extends React.Component {
+        componentDidMount() {
+            Mixpanel.track('Hello mixpanel!');
+        }
 
-      useEffect(() => {
-          // Update the document title using the browser API
-        Mixpanel.track('User Visit at my site');
-        });
+        render() {
 
-
+        // track an event with optional properties
         //const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
         return (
 
@@ -24,6 +24,7 @@ import { Mixpanel } from '../../components/Mixpanel';
          </body>
              </div>
         );
+}
 }
 
 

@@ -107,3 +107,11 @@ span .quotes {
 line-height: 1.1em;
 padding-bottom: 2em;
 }
+
+.essaymargins {
+  margin-bottom: 5rem;
+}
+
+.footnotemargins {
+  margin-bottom: 2rem;
+}

@@ -2,13 +2,12 @@ import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Mixpanel } from './components/Mixpanel';
+import mixpanel from 'mixpanel-browser';
+import { MixpanelProvider, MixpanelConsumer } from 'react-mixpanel';
 
 import { publicRoutes } from "./routes";
 function App() {
-  useEffect(() => {
-      // Update the document title using the browser API
-    Mixpanel.track('User Visit at my site');
-    });
+Mixpanel.track('User Visit at MySite');
 
   return (
     <div className="App">

@@ -8,12 +8,24 @@ import Email from "../containers/Email";
 import Quotes from "../containers/Quotes";
 import App from "./../App";
 import Noob from "../containers/Noob";
+import What from "../containers/What";
+import Was from "../containers/Was";
 
 const publicRoutes = [
     {
         component: Landingpage, // <-- this is the component that'll be rendered
         exact: true, // <-- this says to ONLY match when the path is exactly '/'
         path: "/Landingpage" // <-- ... and this is the actual path to match on
+    },
+    {
+        component: What, // <-- this is the component that'll be rendered
+        exact: true, // <-- this says to ONLY match when the path is exactly '/'
+        path: "/what" // <-- ... and this is the actual path to match on
+    },
+    {
+        component: Was, // <-- this is the component that'll be rendered
+        exact: true, // <-- this says to ONLY match when the path is exactly '/'
+        path: "/Was" // <-- ... and this is the actual path to match on
     },
     {
         component: Bio, // <-- this is the component that'll be rendered

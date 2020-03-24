@@ -13,6 +13,7 @@ const history = createBrowserHistory();
 ReactDOM.render(
   <Router history={history}>
 <MixpanelProvider mixpanel={mixpanel}>
+{mixpanel => <Landingpage mixpanel={mixpanel}/>}
 <Switch>
     {publicRoutes.map(route => (
         <Route key={route.path} {...route} />

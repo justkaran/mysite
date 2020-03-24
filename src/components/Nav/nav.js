@@ -16,6 +16,7 @@ return (
       <li><a href="/">Home</a></li>
       <li><a href="/books">Books</a></li>
       <li><a href="/bio">Bio</a></li>
+      <li><a href="/Was">Was Sie tun können</a></li>
       <li><a href="/quotes">Quotes</a></li>
       <li><a href="/email">Email</a></li>
       <li><a href="/drawings">Drawings</a></li>
