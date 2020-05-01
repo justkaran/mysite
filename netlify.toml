@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/index.html"
+to = "https://mysite.justkaran.repl.run/"
 status = 200
