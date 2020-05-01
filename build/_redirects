@@ -1,1 +1,6 @@
-/*    /https://mysite.justkaran.repl.run/  200
+[[redirects]]
+  from = "/*"
+  to = "https://mysite.justkaran.repl.run/"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
