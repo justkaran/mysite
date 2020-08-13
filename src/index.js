@@ -23,7 +23,7 @@ ReactDOM.render(
 </Switch>
 
 </MixpanelProvider>
-      </Router>
+      </Router1>
       ,
 document.getElementById('root'));
 
