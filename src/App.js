@@ -15,7 +15,7 @@ Mixpanel.track('User Visit at MySite');
       </header>
     <body>
       <div>
-    <div>Karan Dehghani</div>
+    <div>Karan</div>
     <ul id="menu" className="left">
       <li><a href="/">Home</a></li>
       <li><a href="/books">Books</a></li>
