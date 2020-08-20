@@ -18,7 +18,7 @@ ReactDOM.render(
     {publicRoutes.map(route => (
         <Route key={route.path} {...route} />
     ))}
-    {/* default route when path does not match anything */}
+    {/* default route when path does not match anything this time */}
     <Route component={Landingpage} />
 </Switch>
 
