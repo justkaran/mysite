@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "deploy": "^1.0.3",
+    "deploys": "^1.0.3",
     "mixpanel-browser": "^2.34.0",
     "netlify": "^4.0.5",
     "react": "^16.8.6",
