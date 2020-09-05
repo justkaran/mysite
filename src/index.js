@@ -20,7 +20,7 @@ ReactDOM.render(
     ))}
     {/* default route when path does not match anything this time */}
     <Route component={Landingpage} />
-      <h1>Whatup?!</h1>
+      <h1>Whatup?! This is a landingpange</h1>
 </Switch>
 
 </MixpanelProvider>
