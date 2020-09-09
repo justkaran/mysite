@@ -1,6 +1,6 @@
 import mixpanel from 'mixpanel-browser';
 import { MixpanelProvider, MixpanelConsumer } from 'react-mixpanel';
-mixpanel.init('ded34ee83d2decbafb5b7aa292a66c7e');
+mixpanel.init('');
 
 let env_check = process.env.NODE_ENV === 'production';
 
